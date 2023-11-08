@@ -1,0 +1,23 @@
+I used venv to create a virtual environment for my project
+
+The command I used is :
+python -m venv . (this creates a virtual environment in the ., that means in the current folder)
+
+Then to activate the environment use:
+.\Scripts\activate
+
+This will run the activate.bat // note: in powershell i've seen on stackoverflow you have to run activate.ps1, so you dont run the .bat file
+
+To test if you are in the virtual environment use the expression:
+sys.prefix != sys.base_prefix
+
+
+
+The idiom used at the end is put there so you can import the file without it actually executing
+When you run the file as a script it gets the name __main__, but when you import it as a modul it will have its own name
+
+sauce: https://realpython.com/if-name-main-python/
+
+
+
+Heard of this library called argparse for when you work with cli arguments (better than sys)

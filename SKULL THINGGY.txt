@@ -1,0 +1,6 @@
+SKULL THINGGY
+
+Reverse Engineering:
+Rotate -70 (img de pe wiki)
+shear -3000
+
